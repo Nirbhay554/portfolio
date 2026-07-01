@@ -1,3 +1,4 @@
+// Selected projects with AI Mock Interview platform
 import React from 'react';
 import { motion } from 'framer-motion';
 

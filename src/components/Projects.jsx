@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Job Aggregator Platform',
-    desc: 'Engineered a full-stack job aggregator consolidating listings from multiple sources with advanced filtering and seamless search capabilities.',
-    tags: ['React.js', 'Node.js', 'Express', 'MongoDB'],
-    link: 'https://job-aggregator-eight.vercel.app',
-  },
-  {
     title: 'AI Mock Interview Platform',
     desc: 'Designed and built an AI-powered mock interview platform that conducts voice/text-based interviews, evaluates responses, and provides comprehensive feedback reports using Gemini AI.',
     tags: ['React.js', 'Tailwind CSS', 'Gemini AI', 'Node.js'],
     link: 'https://ai-mock-interview-liard-six.vercel.app/',
+  },
+  {
+    title: 'Job Aggregator Platform',
+    desc: 'Engineered a full-stack job aggregator consolidating listings from multiple sources with advanced filtering and seamless search capabilities.',
+    tags: ['React.js', 'Node.js', 'Express', 'MongoDB'],
+    link: 'https://job-aggregator-eight.vercel.app',
   },
   {
     title: 'School Website Development',

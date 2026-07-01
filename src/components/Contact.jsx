@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -18,13 +18,13 @@ const Contact = () => {
         </p>
         
         <div style={styles.socials}>
-          <a href="mailto:nirbhaysingh4585@gmail.com" style={styles.iconLink}>
-            <FaEnvelope size={32} />
+          <a href="https://wa.me/917526005523" target="_blank" rel="noreferrer" style={styles.iconLink}>
+            <FaWhatsapp size={32} />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" style={styles.iconLink}>
+          <a href="https://github.com/Nirbhay554" target="_blank" rel="noreferrer" style={styles.iconLink}>
             <FaGithub size={32} />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" style={styles.iconLink}>
+          <a href="https://www.linkedin.com/in/nirbhay-singh-79b60132a" target="_blank" rel="noreferrer" style={styles.iconLink}>
             <FaLinkedin size={32} />
           </a>
         </div>
